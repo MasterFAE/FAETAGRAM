@@ -1,0 +1,79 @@
+
+.fae-post{
+    position: relative;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+.post-comment-length{
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+
+.post-comment-length:hover{
+    font-weight: 600;
+}
+
+.fae-nav-user{
+    float: right;
+}
+
+
+.border-circle {
+    border-radius: 50%;
+}
+
+.fae-addpost-btn{
+    font-size: 30px;
+    padding: auto;
+    width: 60px;
+    height: 60px;
+}
+
+.post-image{
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 600px;
+}
+
+.fae-user-post{
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+
+.post-make-comment {
+    border:none;
+    margin-top: 5px;
+    padding: 2px;
+    padding-left: 10px;
+    border: 0.1px solid gray;
+    border-radius: 5px;
+}
+
+.post-make-comment:focus {
+    transition: 0.4s;
+    border: 0.1px solid gray;
+    outline: none;
+}
+
+
+.fae-nav {
+    margin-top: 2vh;
+    border-bottom: 1px solid black;
+    height: max-content;
+}
+
+.fae-nav-user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1vh;
+}
+
+.fae-nav h3 {
+    width: fit-content;
+    padding: 1.5vh;
+}
